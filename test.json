@@ -1,0 +1,73 @@
+[
+    {
+       "_id":1001,
+       "name":"Saurabh",
+       "Email":"mbacomp@gmail.com",
+       "Department":"java",
+	"salary":55000 
+    },
+    {
+       "_id":1002,
+       "name":"Nitish",
+       "Email":"nitish@gmail.com",
+"Department":"oracle",
+	"salary":85000 
+    },
+    {
+       "_id":1003,
+       "name":"Amit",
+       "Email":"Amit@gmail.com",
+"Department":"java",
+	"salary":65000 
+    },
+    {
+       "_id":1004,
+       "name":"Akshay",
+       "Email":"Akshay@gmail.com" ,
+"Department":"Angular",
+	"salary":75000 
+    },
+{
+       "_id":1005,
+       "name":"Amit",
+       "Email":"Amit@gmail.com" ,
+"Department":"Angular",
+	"salary":75000 
+    },
+{
+       "_id":1006,
+       "name":"Suresh",
+       "Email":"Akshay@gmail.com" ,
+"Department":"Java",
+	"salary":75000 
+    },
+{
+       "_id":1007,
+       "name":"Manju",
+       "Email":"manju@gmail.com" ,
+"Department":"oracle",
+	"salary":95000 
+    },
+{
+       "_id":1008,
+       "name":"Manju",
+       "Email":"manju@gmail.com" ,
+"Department":"Java",
+	"salary":95000 
+    },
+{
+       "_id":1009,
+       "name":"Shweta",
+       "Email":"manju@gmail.com" ,
+"Department":"oracle",
+	"salary":45000 
+    },
+{
+       "_id":1010,
+       "name":"Suman",
+       "Email":"suman@gmail.com" ,
+"Department":"Angular",
+	"salary":45000 
+    }
+
+]
