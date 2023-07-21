@@ -5,6 +5,34 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> 
 	
-	<bean id="hello" class="com.HelloWrod" scope="prototype"></bean>
+	<bean id="hello" class="com.HelloWrod">
+		<property name="name" value="MyName"></property>
+		<property name="age" value="42"></property>
+		<property name="books">
+			<set>
+				<value>Java Books</value>
+				<value>Spring in action</value>
+				<value>Hibernate in action</value>
+				<value>Java Books</value>
+			</set>
+		</property>
+	</bean>
+	
+	<bean id="emp" class="com.Employee">
+		<!-- <property name="empid" value="1001"/>
+		<property name="name" value="Dhruv"/>
+		<property name="email" value="aa@abc.com"/>-->
+		
+		<constructor-arg value="Saurabh" index="1"/>
+		<constructor-arg value="101" index="0"/>
+		<constructor-arg value="Saurabh@gmail.com" index="2"/>
+		<constructor-arg ref="add" index="3"/>
+		
+	</bean>
+	<bean id="add" class="com.Address">
+		<property name="city" value="Noida"/>
+		<property name="country" value="India"/>
+		<property name="zip" value="201301"/>
+	</bean>
 
 </beans>
